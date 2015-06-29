@@ -1,9 +1,1 @@
-#!/bin/bash
-if [ $# -ne 3 ]; then
-	echo "USAGE:  xautoclick XXX YYY SleepTime"
-	exit
-fi
-while [ 1 ]; do
-  xdotool mousemove $1 $2 click 1 &
-  sleep $3
-done
+/home/jacob/bin/xautoclick
