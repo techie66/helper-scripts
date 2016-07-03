@@ -1,1 +1,1 @@
-/home/jacob/bin/hblock.sh
+xlock -mode marquee -program "tail -c 72 handbrake.log"

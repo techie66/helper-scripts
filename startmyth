@@ -1,1 +1,6 @@
-/home/jacob/bin/startmyth
+#!/bin/bash
+killall -w -s KILL mythfrontend.real
+mythfrontend &>/dev/null &
+sleep 10
+wmctrl -r "MythTV Frontend" -b "add,sticky"
+
